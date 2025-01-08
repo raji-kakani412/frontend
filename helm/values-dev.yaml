@@ -1,0 +1,8 @@
+deployment:
+  version: IMAGE_VERSION
+  replicas: 2
+  imageURL: <ecr image url>
+hpa:
+  targetcpuutil: 15
+tgb:
+  arn: 
