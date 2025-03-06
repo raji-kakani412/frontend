@@ -1,4 +1,4 @@
-webVersion: v1
+webVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend
